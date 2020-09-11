@@ -1,0 +1,201 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: lavender;
+}
+.content{
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+.navbar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right ,skyblue,pink);
+    padding: 0 !important;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+li{
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#banner{
+
+    margin-top: -3%;
+    padding-top: 5%;
+    background-image: linear-gradient(to right ,skyblue,pink);
+
+}
+.promo-title{
+    margin-top: 80px;
+    font-size: 300%;
+    margin:auto;
+    font-weight: bold;
+    font-family: monospace;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+.play-btn{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 5%;
+}
+#banner a{
+    margin-top: 10%;
+    color: darkcyan;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+.image{
+    max-width: 60%;
+    box-shadow: 2px 2px 8px hotpink;
+    margin-bottom: 3%;
+}
+
+#services{
+    margin-top: 3%;
+    background-color: rgb(255, 250, 249);
+}
+ h1{
+     text-transform: uppercase;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: cursive;
+}
+ h1:hover{
+    text-shadow: 2px 4px 5px red;
+    transform: translateY(-8px);
+}
+
+.card{
+    opacity: 0.8;
+    margin: 20px 10px;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 6px black;
+}
+h4{
+    font-size: 90%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card img{
+    margin-top: 3%;
+    max-width:80%;
+}
+.card:hover{
+    opacity: 1;
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 15px black;
+
+}
+
+#about{
+    background:#cadef1;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+ul{
+    padding: 10px 10px;
+    list-style: square;
+}
+#about ul li{
+    max-width: 80%;
+    
+}
+.image1{
+    max-width: 80%;
+    margin: 30px 10px;
+    box-shadow:2px 2px 10px #7b1798;
+}
+#socials{
+    background: #e1e5ec;
+    padding: 100px;
+}
+
+h2{
+   font-size: 200%;
+    text-align: center;
+    font-weight: bold;
+}
+.social-icons{
+    margin: auto;
+}
+.social-icons img {
+    margin-top: 30%;
+    width: 40%;
+    height: 50%;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+   
+}
+#contact{
+    padding: 50px 50px;
+    background-image: linear-gradient(to right,skyblue,pink);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div id="row">
+<div class="col-md-4">
+  <div class="card">
+  <img class="img1"src="iot.jpg">
+  <h4>Web development</h4>
+  <p>45 days lecture<br>6-7 hrs per week<br>Weekly assignments<br>2 projects</p>
+</div>
+</div>
+<div class="col-md-4">
+  <div class="card">
+  <img class="img1"src="dm.jpg">
+  <h4>App development</h4>
+  <p>60 days lecture<br>7-8 hrs per week<br>Weekly assignments<br>3 projects</p>
+</div>
+</div>
+<div class="col-md-4">
+  <div class="card">
+  <img class="img1"src="m.jpg">
+  <h4>Cyber security</h4>
+  <p>35 days lecture<br>9-10 hrs per week<br>Weekly assignments<br>2 projects</p>
+</div>
+</div>
+</div>
+</div>
